@@ -67,7 +67,7 @@ def wallet(request):
 
 @login_required(login_url='login_user')
 def prof(request):
-    return render(request, 'quiz.html')
+    return render(request, 'newprofile.html')
 
 @login_required(login_url='login')
 def profile_view(request, username):

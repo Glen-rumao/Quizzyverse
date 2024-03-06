@@ -11,5 +11,7 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout'),
     # path('dashboard/<str:username>', views.dashboard, name='dashboard'),
     path('dashboard/', views.dashboard, name='dashboard'),
-    path('wallet/',views.wallet,name='wallet')
+    path('wallet/',views.wallet,name='wallet'),
+    path('prof/',views.prof,name='prof'),
+
 ]
